@@ -12,8 +12,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 */10
 - */1 Readme
-- */2 Basic HTML content
-- */1 Basic CSS styling
+- 2/2 Basic HTML content <
+- 1/1 Basic CSS styling <
 - */1 Advanced feature
 - */2 Responsive layout
 - */1 Passes validation checks
@@ -43,6 +43,12 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
+https://www.w3schools.com/html -- General reference for HTML features 
+https://www.w3schools.com/cssref -- General reference for CSS features
+https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://www.w3schools.com/css/css_align.asp
+https://onenine.com/css-clamp-for-font-scaling-how-it-works/
 
 
 

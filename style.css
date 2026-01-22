@@ -2,9 +2,24 @@
   position: sticky;
   top: 0;
   overflow: hidden;
+  padding: 15px 20px;
   background-color: #232324;
   color:rgb(209, 209, 209);
   font-family: monospace;
+  font-size: 20px;
+  text-decoration: none;
+}
+#menu a {
+  padding-left: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(255, 166, 83);
 }
 
 body {
@@ -23,9 +38,35 @@ body {
 h1 {
     color:rgb(170, 169, 169);
     font-family: monospace;
+    padding-top: 2vh;
+    padding-left: 2vw;
+}
+
+h2 {
+    color:rgb(170, 169, 169);
+    font-family: monospace;
+    padding-top: 2vh;
+    padding-left: 2vw;
 }
 
 p {
     color:rgb(209, 209, 209);
     font-family: monospace;
+}
+
+.intro {
+    padding-left: 2vw;
+}
+
+.skill {
+    border-style: inset;
+    border-color: rgb(38, 36, 54);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill p {
+    text-align: center;
 }
