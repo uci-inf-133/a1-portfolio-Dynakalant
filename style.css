@@ -1,16 +1,51 @@
-#menu {
-  position: sticky;
-  top: 0;
-  overflow: hidden;
-  padding: 15px 20px;
-  background-color: #232324;
-  color:rgb(209, 209, 209);
-  font-family: monospace;
-  font-size: 20px;
-  text-decoration: none;
+
+@media (width <= 800px) {
+    #menu {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        padding: 15px 20px;
+        background-color: #232324;
+        color:rgb(209, 209, 209);
+        font-family: monospace;
+        font-size: 20px;
+        text-decoration: none;
+        }
+    #menu a {
+        padding-left: 20px;
+    }
+    #side_menu {
+        display: none;
+    }
 }
-#menu a {
-  padding-left: 20px;
+
+@media (width > 800px) {
+    #menu {
+        display: none;
+    }
+    #side_menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 150px;
+        padding-top: 20px;
+        overflow-x: hidden;
+        z-index: 1;
+        background-color: #232324;
+        color:rgb(209, 209, 209);
+        font-family: monospace;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    #side_menu table {
+        margin-left: 15px;
+    }
+
+    #main {
+        margin-left: 150px;
+    }
 }
 
 a:link {
@@ -60,7 +95,7 @@ p {
 
 .skill {
     border-style: inset;
-    border-color: rgb(38, 36, 54);
+    border-color: rgb(50, 45, 82);
     border-radius: 15px;
     display: flex;
     justify-content: center;

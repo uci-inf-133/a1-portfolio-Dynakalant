@@ -48,6 +48,8 @@ https://www.w3schools.com/cssref -- General reference for CSS features
 https://www.w3schools.com/css/css_align.asp
 https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
 https://www.w3schools.com/css/css_align.asp
+https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
 https://onenine.com/css-clamp-for-font-scaling-how-it-works/
 
 
