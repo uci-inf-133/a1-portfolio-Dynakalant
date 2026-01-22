@@ -1,24 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
+<!--
+WRITTEN BY: Dylan Tanaka
+EMAIL: tanakadm@uci.edu
+-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dylan Tanaka</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="Dylan Tanaka" content="Your name here">
+  <meta name="description" content="description of your page">
+   <!-- you would link to an external stylesheet here! -->
+   <!-- you would also link to Bootstrap here! -->
+  <title>Dylan Tanaka's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div id="menu">
   <a href="./index.html">Home</a>
-  <a href="/projects.html">Projects</a>
+  <a href="./projects.html">Projects</a>
 </div>
 
-<div>
-    <h1>Welcome!</h1>
-    <h2>Introduction</h2>
-    <p>PROJECS attt at University of California, Irvine.</p>
+<div id="side_menu">
+    <table>
+        <tr>
+            <td>
+                <a href="./index.html">Home</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="./projects.html">Projects</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div id="main">
+    <div>
+        <h1>My projects</h1>
+    </div>
+
+    <div>
+        <div>
+            <p class="intro"> These are some of the projects that can be found on my github.
+            </p>
+        </div>
+    </div>
+
+    <div>
+        <table class="projects_table">
+            <tr>
+                <td>
+                    <div class="project">
+                        <a href="https://github.com/Dynakalant/CRAM-Pygame">
+                            <img class="project_img" alt="Image of this minigame" src="./img/placeholder.png">
+                        </a>
+                        <p>This project utilizes pygame to create a very simple 2D minigame representation
+                            of a C-RAM defense system. I made it for fun and to exercise my python skills.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="project">
+                        <a href="https://github.com/Dynakalant/Tank-Pygame">
+                            <img class="project_img" alt="Image of this minigame" src="./img/placeholder.png">
+                        </a>
+                        <p>This project utilizes pygame to create a top-down minigame featuring a tank,
+                            hitboxes, and main gun firing. I made it for fun and to exercise my python skills.
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
 
 </body>
-</html> 
+</html>

@@ -105,3 +105,18 @@ p {
 .skill p {
     text-align: center;
 }
+
+.projects_table {
+    margin-left: 2vw;
+}
+
+.project {
+    border-style: inset;
+    border-color: rgb(50, 45, 82);
+}
+
+.project_img {
+    width: 50vw;
+    display: block;
+    margin: auto;
+}

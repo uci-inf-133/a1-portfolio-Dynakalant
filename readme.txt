@@ -51,6 +51,7 @@ https://www.w3schools.com/css/css_align.asp
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
 https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Media_queries/Using
 https://onenine.com/css-clamp-for-font-scaling-how-it-works/
+https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/
 
 
 
