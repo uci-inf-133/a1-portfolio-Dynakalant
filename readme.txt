@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Dylan M Tanaka, tanakadm@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -11,35 +11,42 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
 */10
-- */1 Readme
+- 1/1 Readme
 - 2/2 Basic HTML content <
 - 1/1 Basic CSS styling <
-- */1 Advanced feature
-- */2 Responsive layout
-- */1 Passes validation checks
-- */2 Embraces spirit of the assignment
+- 1/1 Advanced feature
+- 2/2 Responsive layout
+- 1/1 Passes validation checks
+- 2/2 Embraces spirit of the assignment
 
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
+- 3 Images (profile picture and github program pictures) with proper alternative text
+- Appropriate headings and paragraph text
+- Link to external page (github pictures are links to my github)
+- Multiple pages with navigation (two pages)
 
 
 (b) CSS features
-
+- Padding and margins modified to increase readability
+- Text color and background color modified to be visually appealing
+- Bootstrap used to organize skills on the bottom of the homepage
 
 
 (c) Advanced features
-
+- There is a navigation menu bar present at all times which allows the user to navigate between
+  my two pages (home and projects). This menu is displayed as a sticky navbar on the top, but
+  when the screen is wider than a certain amount, this menu is instead displayed as a sidebar.
 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-
+I did not have any errors
 
 
 4. How long, in hours, did it take you to complete this assignment?
-
+Around 10 hours
 
 
 5. What online resources did you consult when completing this assignment? (list specific URLs, describe queries to Generative AI, or use of AI-based code completion)
@@ -56,8 +63,8 @@ https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?
-
+Ian Nakashima
 
 
 7. Is there anything special we need to know in order to run your code?
-
+The webpage starts at index.html, but that's about it

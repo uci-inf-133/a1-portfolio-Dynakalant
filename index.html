@@ -8,23 +8,25 @@ EMAIL: tanakadm@uci.edu
 
 <head>
   <meta charset="utf-8">
-  <meta name="Dylan Tanaka" content="Your name here">
-  <meta name="description" content="description of your page">
+  <meta name="author" content="Dylan Tanaka">
+  <meta name="description" content="Homepage and introduction of the website">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
-  <title>Dylan Tanaka's Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <title>Dylan Tanaka's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
+<!-- This is the menu divider, which will be the navbar if the screen is small enough in width. -->
 <div id="menu">
   <a href="./index.html">Home</a>
   <a href="./projects.html">Projects</a>
 </div>
 
+<!--This is the side menu divider, which will be the side menu if the screen is wide enough.-->
 <div id="side_menu">
     <table>
         <tr>
@@ -40,13 +42,15 @@ EMAIL: tanakadm@uci.edu
     </table>
 </div>
 
+<!--This main part contains the main page content.-->
 <div id="main">
     <div>
         <h1>Welcome!</h1>
     </div>
 
+    <!--Profile picture.-->
     <div class="profile_pic_section">
-        <img class="profile_pic rounded-circle" alt="Picture of me" src="./img/placeholder.png">
+        <img class="profile_pic rounded-circle" alt="Picture of me" src="./img/me.png">
     </div>
 
     <div>
@@ -58,6 +62,9 @@ EMAIL: tanakadm@uci.edu
         </div>
     </div>
 
+    <!--The skills section uses bootstrap to showcase the skills in a readable and adaptive format.
+    Extra small takes up 6 columns, small 4, medium3 and large 1.
+    -->
     <div>
         <h2>Skills</h2>
         <div class="container">
